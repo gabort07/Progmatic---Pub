@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7715940b-29ec-4496-9629-4c33d1078c95" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jjaqvR062V7oqYwCyDfb8PiDwp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.Comparatorok.Biologi.Main" />
+      <module name="Comparatorok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.Comparatorok.Biologi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.Comparatorok.Strings.Main" />
+      <module name="Comparatorok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.Comparatorok.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.Comparatorok.Pub.Main" />
+      <module name="Comparatorok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.Comparatorok.Pub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="company.Comparatorok.Main" />
+      <module name="Comparatorok" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.Comparatorok.Artist.Main" />
+      <module name="Comaratorok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.Comparatorok.Artist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.Comparatorok.Biologi.Main" />
+      <module name="Comaratorok" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.Comparatorok.Biologi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7715940b-29ec-4496-9629-4c33d1078c95" name="Default Changelist" comment="" />
+      <created>1604320153277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604320153277</updated>
+      <workItem from="1604320154389" duration="11807000" />
+      <workItem from="1604339276377" duration="726000" />
+      <workItem from="1604349553088" duration="3383000" />
+      <workItem from="1604388465156" duration="3185000" />
+      <workItem from="1604395287947" duration="599000" />
+      <workItem from="1604396975991" duration="12840000" />
+      <workItem from="1604438270807" duration="2517000" />
+      <workItem from="1604475057280" duration="2544000" />
+      <workItem from="1604479043646" duration="5580000" />
+      <workItem from="1604487015891" duration="10608000" />
+      <workItem from="1604517789540" duration="7094000" />
+      <workItem from="1604561695452" duration="2382000" />
+      <workItem from="1604565560015" duration="15271000" />
+      <workItem from="1604603120348" duration="5138000" />
+    </task>
+    <task id="LOCAL-00001" summary="Az artist comparator elkezdtve">
+      <created>1604483477413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483477413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="String muveletek">
+      <created>1604501211988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604501211988</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ceasar kodolas befejezve">
+      <created>1604524872582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604524872582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pub feltoltve">
+      <created>1604574168534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604574168534</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PubRunning elkezdve">
+      <created>1604586015854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604586015854</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kesz a servguest">
+      <created>1604609005617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604609005617</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Az artist comparator elkezdtve" />
+    <MESSAGE value="String muveletek" />
+    <MESSAGE value="Ceasar kodolas befejezve" />
+    <MESSAGE value="Pub feltoltve" />
+    <MESSAGE value="PubRunning elkezdve" />
+    <MESSAGE value="kesz a servguest" />
+    <option name="LAST_COMMIT_MESSAGE" value="kesz a servguest" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1604607842608">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="543" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1475.799@0.0.1475.799" timestamp="1604328744668" />
+    <state x="565" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1604401234053" />
+    <state x="640" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1739.947@0.0.1739.947" timestamp="1604607842608" />
+    <state x="535" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604405500494">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="535" y="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1604405500494" />
+    <state x="550" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604398882546">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="550" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1604398882546" />
+    <state width="415" height="413" key="DebuggerActiveHint" timestamp="1604524189494">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="415" height="413" key="DebuggerActiveHint/0.0.1739.947@0.0.1739.947" timestamp="1604524189494" />
+    <state x="610" y="183" key="FileChooserDialogImpl" timestamp="1604565570999">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="518" y="154" key="FileChooserDialogImpl/0.0.1475.799@0.0.1475.799" timestamp="1604388516896" />
+    <state x="539" y="161" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604480699833" />
+    <state x="610" y="183" key="FileChooserDialogImpl/0.0.1739.947@0.0.1739.947" timestamp="1604565570999" />
+    <state width="1696" height="287" key="GridCell.Tab.0.bottom" timestamp="1604586620528">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1431" height="159" key="GridCell.Tab.0.bottom/0.0.1475.799@0.0.1475.799" timestamp="1604355179967" />
+    <state width="1493" height="340" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604481507338" />
+    <state width="1696" height="287" key="GridCell.Tab.0.bottom/0.0.1739.947@0.0.1739.947" timestamp="1604586620528" />
+    <state width="1696" height="287" key="GridCell.Tab.0.center" timestamp="1604586620528">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1431" height="159" key="GridCell.Tab.0.center/0.0.1475.799@0.0.1475.799" timestamp="1604355179967" />
+    <state width="1493" height="340" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604481507338" />
+    <state width="1696" height="287" key="GridCell.Tab.0.center/0.0.1739.947@0.0.1739.947" timestamp="1604586620528" />
+    <state width="1696" height="287" key="GridCell.Tab.0.left" timestamp="1604586620528">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1431" height="159" key="GridCell.Tab.0.left/0.0.1475.799@0.0.1475.799" timestamp="1604355179967" />
+    <state width="1493" height="340" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604481507338" />
+    <state width="1696" height="287" key="GridCell.Tab.0.left/0.0.1739.947@0.0.1739.947" timestamp="1604586620528" />
+    <state width="1696" height="287" key="GridCell.Tab.0.right" timestamp="1604586620528">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1431" height="159" key="GridCell.Tab.0.right/0.0.1475.799@0.0.1475.799" timestamp="1604355179967" />
+    <state width="1493" height="340" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604481507338" />
+    <state width="1696" height="287" key="GridCell.Tab.0.right/0.0.1739.947@0.0.1739.947" timestamp="1604586620528" />
+    <state width="1696" height="317" key="GridCell.Tab.1.bottom" timestamp="1604524890944">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604480416935" />
+    <state width="1696" height="317" key="GridCell.Tab.1.bottom/0.0.1739.947@0.0.1739.947" timestamp="1604524890944" />
+    <state width="1696" height="317" key="GridCell.Tab.1.center" timestamp="1604524890944">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1604480416935" />
+    <state width="1696" height="317" key="GridCell.Tab.1.center/0.0.1739.947@0.0.1739.947" timestamp="1604524890944" />
+    <state width="1696" height="317" key="GridCell.Tab.1.left" timestamp="1604524890944">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1604480416935" />
+    <state width="1696" height="317" key="GridCell.Tab.1.left/0.0.1739.947@0.0.1739.947" timestamp="1604524890944" />
+    <state width="1696" height="317" key="GridCell.Tab.1.right" timestamp="1604524890944">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604480416935" />
+    <state width="1696" height="317" key="GridCell.Tab.1.right/0.0.1739.947@0.0.1739.947" timestamp="1604524890944" />
+    <state x="379" y="119" key="SettingsEditor" timestamp="1604573125827">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="379" y="119" key="SettingsEditor/0.0.1739.947@0.0.1739.947" timestamp="1604573125827" />
+    <state x="409" y="170" key="Vcs.Push.Dialog.v2" timestamp="1604609011033">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604483485101" />
+    <state x="409" y="170" key="Vcs.Push.Dialog.v2/0.0.1739.947@0.0.1739.947" timestamp="1604609011033" />
+    <state x="260" y="173" width="1015" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604479835372">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="260" y="173" width="1015" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1604479835372" />
+    <state x="464" y="215" width="761" height="769" key="run.anything.popup" timestamp="1604606976568">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="394" y="181" key="run.anything.popup/0.0.1475.799@0.0.1475.799" timestamp="1604352159449" />
+    <state x="410" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1604400229259" />
+    <state x="464" y="215" width="761" height="769" key="run.anything.popup/0.0.1739.947@0.0.1739.947" timestamp="1604606976568" />
+    <state x="532" y="202" width="672" height="678" key="search.everywhere.popup" timestamp="1604522625686">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="532" y="202" width="672" height="678" key="search.everywhere.popup/0.0.1739.947@0.0.1739.947" timestamp="1604522625686" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
