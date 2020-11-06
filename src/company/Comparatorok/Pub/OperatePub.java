@@ -69,5 +69,8 @@ public class OperatePub {
             default -> throw new IllegalStateException("Unexpected value: " + drink);
         };
     }
+    public void random(){
+        System.out.println("random");
+    }
 
 }

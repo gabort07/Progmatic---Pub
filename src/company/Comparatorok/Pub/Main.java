@@ -7,7 +7,7 @@ public class Main {
         operator.setUpPub(pub);
         operator.printOut(pub.getDrinkStorage(), pub.getGuests());
         operator.pubRunning(pub.getGuests(), pub.getDrinkStorage());
-
+        operator.random();
 
     }
 }
