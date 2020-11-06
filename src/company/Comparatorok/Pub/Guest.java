@@ -1,5 +1,7 @@
 package company.Comparatorok.Pub;
 
+import java.util.*;
+
 public class Guest {
     private int name;
     private String favoriteDrink;
@@ -7,14 +9,16 @@ public class Guest {
     private double timeToSpend;
     private boolean thirsty;
     private double alcoholLevel;
+    private List<String> drinksList;
 
-    public Guest(int name) {
+    public Guest(int name, Set<String> drinks) {
         this.name = name;
-        this.favoriteDrink = OperatePub.chooseRandomDrink();
+        this.favoriteDrink = chooseRandomDrink();
         this.drinkEls = ((int) (Math.random() * 2 + 1) == 1);
         this.timeToSpend = ((int)(Math.random()*32+1)) / 2.0;
         this.alcoholLevel=5;
         this.thirsty = true;
+        this.drinksList = new ArrayList<>(drinks);
     }
 
     public void setTimeToSpend(double timeToSpend) {
@@ -37,7 +41,7 @@ public class Guest {
         return favoriteDrink;
     }
 
-    public boolean isDrinkEls() {
+    public boolean drinkEls() {
         return drinkEls;
     }
 
@@ -51,6 +55,11 @@ public class Guest {
 
     public double getAlcoholLevel() {
         return alcoholLevel;
+    }
+
+    public  String chooseRandomDrink() {
+        int drink = (int) (Math.random() * drinksList.size() + 1);
+        return drinksList.get(drink);
     }
 
     @Override

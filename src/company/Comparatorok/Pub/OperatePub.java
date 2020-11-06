@@ -6,7 +6,13 @@ import java.util.List;
 
 public class OperatePub {
 
-    public  void setUpPub(Pub pub) {
+    private  Pub pub;
+
+    public OperatePub(Pub pub) {
+        this.pub = pub;
+    }
+
+    public  void setUpPub() {
         HashMap<String, Drink> map = new HashMap<>();
         map.put("Sör", new Drink("Sör", 15, 0.045, 500, 0.5));
         map.put("Wine", new Drink("Wine", 15, 0.11, 360, 0.3));
@@ -16,7 +22,7 @@ public class OperatePub {
 
         List<Guest> list = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
-            list.add(new Guest(i));
+            list.add(new Guest(i, map.keySet()));
         }
         pub.setGuests(list);
     }
@@ -32,45 +38,34 @@ public class OperatePub {
 
 
     public  void pubRunning(List<Guest> guestList, HashMap<String, Drink> drinkStorage) {
-        for (double i = 0; i <= Pub.getOpenTime(); i += 0.5) {
+        for (double i = 0; i <= pub.getOpenTime(); i += 0.5) {
             for (Guest actualGuest : guestList) {
                 String favoriteDrink = actualGuest.getFavoriteDrink();
                 if (actualGuest.isThirsty()) {
                     System.out.println("A(z) " + actualGuest.getName() + ". vendég szomjas és rendelne");
-                    if (drinkStorage.containsKey(favoriteDrink)) {
+                    if (drinkStorage.containsKey(favoriteDrink) && checkQuantity(drinkStorage.get(favoriteDrink))) {
                         System.out.println("A(z) " + actualGuest.getName() + ". a kedvencét rendeli ami " + favoriteDrink);
                         serveGuest(actualGuest,drinkStorage.get(favoriteDrink));
-                    } else {
-
-                        chooseRandomDrink();
+                    } else if (actualGuest.drinkEls()){
+                        System.out.println("Sajnos nincs a kedvencéből, de szívesen inna mást.");
+                        serveGuest(actualGuest,drinkStorage.get(actualGuest.chooseRandomDrink()));
                     }
                 }
             }
         }
     }
 
+    public boolean checkQuantity(Drink drink){
+        return drink.getQuantity()>drink.getDose();
+    }
+
     public  void serveGuest(Guest actualGuest, Drink actualDrink) {
         actualDrink.setQuantity(actualDrink.getQuantity() - actualDrink.getDose());
-        if(actualDrink.getQuantity()==0){
 
-        }
         actualGuest.setAlcoholLevel(actualGuest.getAlcoholLevel() - actualDrink.getAlcoholLevel());
-        Pub.setPayBox(Pub.getPayBox() + actualDrink.getPrice());
+        pub.setPayBox(pub.getPayBox() + actualDrink.getPrice());
     }
 
-    public static String chooseRandomDrink() {
-        int drink = (int) (Math.random() * 5 + 1);
-        return switch (drink) {
-            case 1 -> "Sör";
-            case 2 -> "Wine";
-            case 3 -> "Palinka";
-            case 4 -> "Water";
-            case 5 -> "";
-            default -> throw new IllegalStateException("Unexpected value: " + drink);
-        };
-    }
-    public void random(){
-        System.out.println("random");
-    }
+
 
 }
