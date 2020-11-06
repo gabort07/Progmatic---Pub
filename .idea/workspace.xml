@@ -176,7 +176,7 @@
       <workItem from="1604517789540" duration="7094000" />
       <workItem from="1604561695452" duration="2382000" />
       <workItem from="1604565560015" duration="15271000" />
-      <workItem from="1604603120348" duration="5138000" />
+      <workItem from="1604603120348" duration="6825000" />
     </task>
     <task id="LOCAL-00001" summary="Az artist comparator elkezdtve">
       <created>1604483477413</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604609005617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="kesz a servguest">
+      <created>1604610796974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604610796974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +256,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="kesz a servguest" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="625" y="294" key="#Notifications" timestamp="1604610841860">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="625" y="294" key="#Notifications/0.0.1739.947@0.0.1739.947" timestamp="1604610841860" />
     <state x="640" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1604607842608">
       <screen x="0" y="0" width="1739" height="947" />
     </state>
@@ -321,11 +332,15 @@
       <screen x="0" y="0" width="1739" height="947" />
     </state>
     <state x="379" y="119" key="SettingsEditor/0.0.1739.947@0.0.1739.947" timestamp="1604573125827" />
-    <state x="409" y="170" key="Vcs.Push.Dialog.v2" timestamp="1604609011033">
+    <state x="409" y="170" key="Vcs.Push.Dialog.v2" timestamp="1604610805701">
       <screen x="0" y="0" width="1739" height="947" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604483485101" />
-    <state x="409" y="170" key="Vcs.Push.Dialog.v2/0.0.1739.947@0.0.1739.947" timestamp="1604609011033" />
+    <state x="409" y="170" key="Vcs.Push.Dialog.v2/0.0.1739.947@0.0.1739.947" timestamp="1604610805701" />
+    <state x="687" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604610471662">
+      <screen x="0" y="0" width="1739" height="947" />
+    </state>
+    <state x="687" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.947@0.0.1739.947" timestamp="1604610471662" />
     <state x="260" y="173" width="1015" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604479835372">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
