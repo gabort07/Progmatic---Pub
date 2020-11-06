@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7715940b-29ec-4496-9629-4c33d1078c95" name="Default Changelist" comment="" />
+    <list default="true" id="7715940b-29ec-4496-9629-4c33d1078c95" name="Default Changelist" comment="random próba">
+      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/OperatePub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/OperatePub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Pub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Pub.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jjaqvR062V7oqYwCyDfb8PiDwp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -127,15 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,7 +257,8 @@
     <MESSAGE value="Pub feltoltve" />
     <MESSAGE value="PubRunning elkezdve" />
     <MESSAGE value="kesz a servguest" />
-    <option name="LAST_COMMIT_MESSAGE" value="kesz a servguest" />
+    <MESSAGE value="random próba" />
+    <option name="LAST_COMMIT_MESSAGE" value="random próba" />
   </component>
   <component name="WindowStateProjectService">
     <state x="625" y="294" key="#Notifications" timestamp="1604610841860">
