@@ -55,7 +55,8 @@ public class OperatePub {
                     guestIterator.remove();
                     System.out.println("A " + actualGuest.getName() + ". vendég távozik a kocsmából.");
                 } else {
-                    String favoriteDrink = actualGuest.getFavoriteDrink();
+                    servGuest(drinkStorage, actualGuest);
+                   /* String favoriteDrink = actualGuest.getFavoriteDrink();
 
                     if (actualGuest.isThirsty()) {
                         System.out.println("A(z) " + actualGuest.getName() + ". vendég szomjas és rendelne " + actualGuest.getFavoriteDrink() + " italt.");
@@ -73,7 +74,7 @@ public class OperatePub {
                         } else {
                             System.out.println("Elfogyott a kedvence, ami " + actualGuest.getFavoriteDrink() + ", és most nem inna mást, inkább beszélget tovább...");
                         }
-                    }
+                    }*/
                 }
             }
             System.out.println("Eltelt fél óra: " + i);
@@ -86,11 +87,33 @@ public class OperatePub {
         return drink.getQuantity() > drink.getDose();
     }
 
-    public void serveGuest(Guest actualGuest, Drink actualDrink) {
+    public void drinkServing(Guest actualGuest, Drink actualDrink) {
         actualDrink.decreesQuantity(actualDrink.getDose());
         actualGuest.incriseAlcoholLevel(actualDrink.getAlcoholLevel());
-        pub.handlePayBox( actualDrink.getPrice());
+        pub.handlePayBox(actualDrink.getPrice());
     }
 
+    public void servGuest(HashMap<String, Drink> drinkStorage, Guest actualGuest) {
+        String favoriteDrink = actualGuest.getFavoriteDrink();
 
+        if (actualGuest.isThirsty()) {
+            System.out.println("A(z) " + actualGuest.getName() + ". vendég szomjas és rendelne " + actualGuest.getFavoriteDrink() + " italt.");
+
+            if (checkQuantity(drinkStorage.get(favoriteDrink))) {
+                System.out.println("A " + actualGuest.getName() + ". a kedvencét tudja rendelni, ami " + favoriteDrink);
+                drinkServing(actualGuest, drinkStorage.get(favoriteDrink));
+
+            } else if (actualGuest.drinkEls()) {
+                System.out.println("Sajnos nincs a kedvencéből, de szívesen inna mást.");
+                Drink drink = drinkStorage.get(actualGuest.chooseRandomDrink());
+                drinkServing(actualGuest, drink);
+                System.out.println("A " + actualGuest.getName() + ". mást ivott, ami " + drink.getType());
+
+            } else {
+                System.out.println("Elfogyott a kedvence, ami " + actualGuest.getFavoriteDrink() + ", és most nem inna mást, inkább beszélget tovább...");
+            }
+        }
+    }
 }
+
+

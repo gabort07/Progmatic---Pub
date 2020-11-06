@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7715940b-29ec-4496-9629-4c33d1078c95" name="Default Changelist" comment="random próba">
-      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Guest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/OperatePub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/OperatePub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Pub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Comparatorok/Pub/Pub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604610796974</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="random próba">
+      <created>1604651527398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604651527398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,19 +338,30 @@
     </state>
     <state width="1493" height="272" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604480416935" />
     <state width="1696" height="317" key="GridCell.Tab.1.right/0.0.1739.947@0.0.1739.947" timestamp="1604524890944" />
+    <state x="168" y="94" key="MergeDialog" timestamp="1604659104500">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="168" y="94" key="MergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604659104500" />
+    <state x="478" y="272" key="MultipleFileMergeDialog" timestamp="1604651473688">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="478" y="272" key="MultipleFileMergeDialog/0.23.1680.962@0.23.1680.962" timestamp="1604651473688" />
     <state x="379" y="119" key="SettingsEditor" timestamp="1604573125827">
       <screen x="0" y="0" width="1739" height="947" />
     </state>
     <state x="379" y="119" key="SettingsEditor/0.0.1739.947@0.0.1739.947" timestamp="1604573125827" />
-    <state x="409" y="170" key="Vcs.Push.Dialog.v2" timestamp="1604610805701">
-      <screen x="0" y="0" width="1739" height="947" />
+    <state x="395" y="196" key="Vcs.Push.Dialog.v2" timestamp="1604651533298">
+      <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604483485101" />
     <state x="409" y="170" key="Vcs.Push.Dialog.v2/0.0.1739.947@0.0.1739.947" timestamp="1604610805701" />
-    <state x="687" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604610471662">
-      <screen x="0" y="0" width="1739" height="947" />
+    <state x="395" y="196" key="Vcs.Push.Dialog.v2/0.23.1680.962@0.23.1680.962" timestamp="1604651533298" />
+    <state x="664" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604659073035">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="664" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604659073035" />
     <state x="687" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.947@0.0.1739.947" timestamp="1604610471662" />
+    <state x="664" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.962@0.23.1680.962" timestamp="1604651469360" />
     <state x="260" y="173" width="1015" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604479835372">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
