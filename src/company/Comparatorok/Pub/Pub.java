@@ -45,7 +45,8 @@ public class Pub {
         return payBox;
     }
 
-    public  void setPayBox(int payBox) {
-        this.payBox = payBox;
+    public  void handlePayBox(int income) {
+
+        this.payBox += income;
     }
 }

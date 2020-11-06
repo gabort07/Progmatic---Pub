@@ -40,8 +40,9 @@ public class Drink {
         return dose;
     }
 
-    public void setQuantity(double quantity) {
-        this.quantity = quantity;
+    public void decreesQuantity(double quantity) {
+
+        this.quantity -= quantity;
     }
 
     public void setAlcoholLevel(double alcoholLevel) {

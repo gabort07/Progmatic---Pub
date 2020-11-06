@@ -5,7 +5,7 @@ public class Main {
         Pub pub = new Pub();
         OperatePub operator = new OperatePub(pub);
         operator.setUpPub();
-        operator.printOut(pub.getDrinkStorage(), pub.getGuests());
+//        operator.printOut(pub.getDrinkStorage(), pub.getGuests());
         operator.pubRunning(pub.getGuests(), pub.getDrinkStorage());
 
 
