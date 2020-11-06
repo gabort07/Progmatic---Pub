@@ -66,6 +66,8 @@ public class OperatePub {
         pub.setPayBox(pub.getPayBox() + actualDrink.getPrice());
     }
 
-
+public void random(){
+    System.out.println("Random");
+}
 
 }
